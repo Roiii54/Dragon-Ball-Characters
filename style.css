@@ -16,25 +16,25 @@
 
 body {
   font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
-  background: var(--cream);
-  color: var(--text);
+  background:#fff8ec;
+  color:#1d1d1f;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
 .site-header {
-  background: linear-gradient(135deg, var(--orange), var(--orange-dark));
+  background: linear-gradient(135deg,#f77f00, #d62828);
   color: #fff;
   text-align: center;
   padding: 2.5rem 1rem;
-  border-bottom: 6px solid var(--yellow);
+  border-bottom: 6px solid#fcbf49;
 }
 
 .site-header h1 {
   font-size: clamp(1.8rem, 5vw, 3rem);
   letter-spacing: 1px;
-  text-shadow: 2px 2px 0 var(--blue);
+  text-shadow: 2px 2px 0 #003049;
 }
 
 .site-header p {
@@ -65,7 +65,7 @@ main {
 }
 
 .character-card {
-  background: var(--card-bg);
+  background: #ffffff;
   border-radius: 14px;
   padding: 1rem;
   text-align: center;
@@ -76,7 +76,7 @@ main {
 
 .character-card:hover {
   transform: translateY(-6px);
-  border-color: var(--orange);
+  border-color: #f77f00;
   box-shadow: 0 10px 24px rgba(247, 127, 0, 0.3);
 }
 
@@ -91,7 +91,7 @@ main {
 
 .character-card h2 {
   font-size: 1.25rem;
-  color: var(--blue);
+  color: #003049;
   margin-bottom: 0.5rem;
 }
 
@@ -99,16 +99,4 @@ main {
   font-size: 0.95rem;
   margin: 0.25rem 0;
   color: #444;
-}
-
-.site-footer {
-  text-align: center;
-  padding: 1.25rem;
-  background: var(--blue);
-  color: #fff;
-  font-size: 0.9rem;
-}
-
-.site-footer a {
-  color: var(--yellow);
 }
