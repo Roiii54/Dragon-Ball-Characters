@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dragon Ball Characters</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Dragon Ball Characters</h1>
+    <p>Meet the warriors of the Dragon Ball universe</p>
+  </header>
+
+  <main>
+    <section id="characters" class="characters-grid">
+      <p class="loading">Loading characters...</p>
+    </section>
+  </main>
+
+<script type="importmap">
+  {
+    "imports": {
+      "axios": "https://cdn.jsdelivr.net/npm/axios@1/+esm"
+    }
+  }
+</script>
+<script type="module" src="app.js"></script>
+</body>
+</html>
